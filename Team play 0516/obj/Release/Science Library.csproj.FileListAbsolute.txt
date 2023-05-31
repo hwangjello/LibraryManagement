@@ -1,0 +1,22 @@
+C:\Users\User\OneDrive\바탕 화면\응소실 주제\팀플\Science Library 0512\Science Library\bin\Release\Science Library.exe.config
+C:\Users\User\OneDrive\바탕 화면\응소실 주제\팀플\Science Library 0512\Science Library\bin\Release\Science Library.exe
+C:\Users\User\OneDrive\바탕 화면\응소실 주제\팀플\Science Library 0512\Science Library\bin\Release\Science Library.pdb
+C:\Users\User\OneDrive\바탕 화면\응소실 주제\팀플\Science Library 0512\Science Library\bin\Release\EntityFramework.dll
+C:\Users\User\OneDrive\바탕 화면\응소실 주제\팀플\Science Library 0512\Science Library\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\User\OneDrive\바탕 화면\응소실 주제\팀플\Science Library 0512\Science Library\bin\Release\System.Data.SQLite.dll
+C:\Users\User\OneDrive\바탕 화면\응소실 주제\팀플\Science Library 0512\Science Library\bin\Release\System.Data.SQLite.EF6.dll
+C:\Users\User\OneDrive\바탕 화면\응소실 주제\팀플\Science Library 0512\Science Library\bin\Release\System.Data.SQLite.Linq.dll
+C:\Users\User\OneDrive\바탕 화면\응소실 주제\팀플\Science Library 0512\Science Library\bin\Release\EntityFramework.xml
+C:\Users\User\OneDrive\바탕 화면\응소실 주제\팀플\Science Library 0512\Science Library\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\User\OneDrive\바탕 화면\응소실 주제\팀플\Science Library 0512\Science Library\bin\Release\System.Data.SQLite.xml
+C:\Users\User\OneDrive\바탕 화면\응소실 주제\팀플\Science Library 0512\Science Library\obj\Release\Science Library.csproj.AssemblyReference.cache
+C:\Users\User\OneDrive\바탕 화면\응소실 주제\팀플\Science Library 0512\Science Library\obj\Release\Science Library.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\OneDrive\바탕 화면\응소실 주제\팀플\Science Library 0512\Science Library\obj\Release\Science_Library.Login.resources
+C:\Users\User\OneDrive\바탕 화면\응소실 주제\팀플\Science Library 0512\Science Library\obj\Release\Science_Library.Main.resources
+C:\Users\User\OneDrive\바탕 화면\응소실 주제\팀플\Science Library 0512\Science Library\obj\Release\Science_Library.Properties.Resources.resources
+C:\Users\User\OneDrive\바탕 화면\응소실 주제\팀플\Science Library 0512\Science Library\obj\Release\Science_Library.SignUp.resources
+C:\Users\User\OneDrive\바탕 화면\응소실 주제\팀플\Science Library 0512\Science Library\obj\Release\Science Library.csproj.GenerateResource.cache
+C:\Users\User\OneDrive\바탕 화면\응소실 주제\팀플\Science Library 0512\Science Library\obj\Release\Science Library.csproj.CoreCompileInputs.cache
+C:\Users\User\OneDrive\바탕 화면\응소실 주제\팀플\Science Library 0512\Science Library\obj\Release\Science Library.csproj.CopyComplete
+C:\Users\User\OneDrive\바탕 화면\응소실 주제\팀플\Science Library 0512\Science Library\obj\Release\Science Library.exe
+C:\Users\User\OneDrive\바탕 화면\응소실 주제\팀플\Science Library 0512\Science Library\obj\Release\Science Library.pdb

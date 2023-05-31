@@ -1,0 +1,1 @@
+seat table에다가 연장 잔여횟수를 나타내는 res_time이랑 예약한 시각을 저장하는 res_when을 추가함.
