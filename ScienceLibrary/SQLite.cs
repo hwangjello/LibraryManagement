@@ -100,6 +100,7 @@ namespace Science_Library.DB
             if (!info.Contains(InID)) return 1;
             else return 0;
         }
+        
 
         public void insert_seat()
         {
