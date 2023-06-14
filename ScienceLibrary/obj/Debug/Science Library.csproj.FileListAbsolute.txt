@@ -1,0 +1,89 @@
+C:\Users\sjmra\Desktop\Visual Studio\Assembly\Science Library\bin\Debug\Science Library.exe.config
+C:\Users\sjmra\Desktop\Visual Studio\Assembly\Science Library\bin\Debug\Science Library.exe
+C:\Users\sjmra\Desktop\Visual Studio\Assembly\Science Library\bin\Debug\Science Library.pdb
+C:\Users\sjmra\Desktop\Visual Studio\Assembly\Science Library\obj\Debug\Science Library.csproj.AssemblyReference.cache
+C:\Users\sjmra\Desktop\Visual Studio\Assembly\Science Library\obj\Debug\Science Library.csproj.SuggestedBindingRedirects.cache
+C:\Users\sjmra\Desktop\Visual Studio\Assembly\Science Library\obj\Debug\Science_Library.Login.resources
+C:\Users\sjmra\Desktop\Visual Studio\Assembly\Science Library\obj\Debug\Science_Library.Main.resources
+C:\Users\sjmra\Desktop\Visual Studio\Assembly\Science Library\obj\Debug\Science_Library.Properties.Resources.resources
+C:\Users\sjmra\Desktop\Visual Studio\Assembly\Science Library\obj\Debug\Science Library.csproj.GenerateResource.cache
+C:\Users\sjmra\Desktop\Visual Studio\Assembly\Science Library\obj\Debug\Science Library.csproj.CoreCompileInputs.cache
+C:\Users\sjmra\Desktop\Visual Studio\Assembly\Science Library\obj\Debug\Science Library.exe
+C:\Users\sjmra\Desktop\Visual Studio\Assembly\Science Library\obj\Debug\Science Library.pdb
+C:\Users\sjmra\Desktop\Visual Studio\Assembly\Science Library\bin\Debug\EntityFramework.dll
+C:\Users\sjmra\Desktop\Visual Studio\Assembly\Science Library\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\sjmra\Desktop\Visual Studio\Assembly\Science Library\bin\Debug\System.Data.SQLite.dll
+C:\Users\sjmra\Desktop\Visual Studio\Assembly\Science Library\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\sjmra\Desktop\Visual Studio\Assembly\Science Library\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\sjmra\Desktop\Visual Studio\Assembly\Science Library\bin\Debug\EntityFramework.xml
+C:\Users\sjmra\Desktop\Visual Studio\Assembly\Science Library\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\sjmra\Desktop\Visual Studio\Assembly\Science Library\bin\Debug\System.Data.SQLite.xml
+C:\Users\sjmra\Desktop\Visual Studio\Assembly\Science Library\obj\Debug\Science Library.csproj.CopyComplete
+C:\Users\jmhwa\OneDrive\문서\카카오톡 받은 파일\Science Library\Science Library\bin\Debug\Science Library.exe.config
+C:\Users\jmhwa\OneDrive\문서\카카오톡 받은 파일\Science Library\Science Library\bin\Debug\Science Library.exe
+C:\Users\jmhwa\OneDrive\문서\카카오톡 받은 파일\Science Library\Science Library\bin\Debug\Science Library.pdb
+C:\Users\jmhwa\OneDrive\문서\카카오톡 받은 파일\Science Library\Science Library\bin\Debug\EntityFramework.dll
+C:\Users\jmhwa\OneDrive\문서\카카오톡 받은 파일\Science Library\Science Library\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\jmhwa\OneDrive\문서\카카오톡 받은 파일\Science Library\Science Library\bin\Debug\System.Data.SQLite.dll
+C:\Users\jmhwa\OneDrive\문서\카카오톡 받은 파일\Science Library\Science Library\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\jmhwa\OneDrive\문서\카카오톡 받은 파일\Science Library\Science Library\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\jmhwa\OneDrive\문서\카카오톡 받은 파일\Science Library\Science Library\bin\Debug\EntityFramework.xml
+C:\Users\jmhwa\OneDrive\문서\카카오톡 받은 파일\Science Library\Science Library\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\jmhwa\OneDrive\문서\카카오톡 받은 파일\Science Library\Science Library\bin\Debug\System.Data.SQLite.xml
+C:\Users\jmhwa\OneDrive\문서\카카오톡 받은 파일\Science Library\Science Library\obj\Debug\Science Library.csproj.AssemblyReference.cache
+C:\Users\jmhwa\OneDrive\문서\카카오톡 받은 파일\Science Library\Science Library\obj\Debug\Science Library.csproj.SuggestedBindingRedirects.cache
+C:\Users\jmhwa\OneDrive\문서\카카오톡 받은 파일\Science Library\Science Library\obj\Debug\Science_Library.Login.resources
+C:\Users\jmhwa\OneDrive\문서\카카오톡 받은 파일\Science Library\Science Library\obj\Debug\Science_Library.Main.resources
+C:\Users\jmhwa\OneDrive\문서\카카오톡 받은 파일\Science Library\Science Library\obj\Debug\Science_Library.Properties.Resources.resources
+C:\Users\jmhwa\OneDrive\문서\카카오톡 받은 파일\Science Library\Science Library\obj\Debug\Science Library.csproj.GenerateResource.cache
+C:\Users\jmhwa\OneDrive\문서\카카오톡 받은 파일\Science Library\Science Library\obj\Debug\Science Library.csproj.CoreCompileInputs.cache
+C:\Users\jmhwa\OneDrive\문서\카카오톡 받은 파일\Science Library\Science Library\obj\Debug\Science Library.csproj.CopyComplete
+C:\Users\jmhwa\OneDrive\문서\카카오톡 받은 파일\Science Library\Science Library\obj\Debug\Science Library.exe
+C:\Users\jmhwa\OneDrive\문서\카카오톡 받은 파일\Science Library\Science Library\obj\Debug\Science Library.pdb
+C:\@Work\정묵프로그래밍\CPP\Science Library\bin\Debug\Science Library.exe.config
+C:\@Work\정묵프로그래밍\CPP\Science Library\bin\Debug\Science Library.exe
+C:\@Work\정묵프로그래밍\CPP\Science Library\bin\Debug\Science Library.pdb
+C:\@Work\정묵프로그래밍\CPP\Science Library\bin\Debug\EntityFramework.dll
+C:\@Work\정묵프로그래밍\CPP\Science Library\bin\Debug\EntityFramework.SqlServer.dll
+C:\@Work\정묵프로그래밍\CPP\Science Library\bin\Debug\System.Data.SQLite.dll
+C:\@Work\정묵프로그래밍\CPP\Science Library\bin\Debug\System.Data.SQLite.EF6.dll
+C:\@Work\정묵프로그래밍\CPP\Science Library\bin\Debug\System.Data.SQLite.Linq.dll
+C:\@Work\정묵프로그래밍\CPP\Science Library\bin\Debug\EntityFramework.xml
+C:\@Work\정묵프로그래밍\CPP\Science Library\bin\Debug\EntityFramework.SqlServer.xml
+C:\@Work\정묵프로그래밍\CPP\Science Library\bin\Debug\System.Data.SQLite.xml
+C:\@Work\정묵프로그래밍\CPP\Science Library\obj\Debug\Science Library.csproj.AssemblyReference.cache
+C:\@Work\정묵프로그래밍\CPP\Science Library\obj\Debug\Science Library.csproj.SuggestedBindingRedirects.cache
+C:\@Work\정묵프로그래밍\CPP\Science Library\obj\Debug\Science_Library.Login.resources
+C:\@Work\정묵프로그래밍\CPP\Science Library\obj\Debug\Science_Library.Main.resources
+C:\@Work\정묵프로그래밍\CPP\Science Library\obj\Debug\Science_Library.Properties.Resources.resources
+C:\@Work\정묵프로그래밍\CPP\Science Library\obj\Debug\Science Library.csproj.GenerateResource.cache
+C:\@Work\정묵프로그래밍\CPP\Science Library\obj\Debug\Science Library.csproj.CoreCompileInputs.cache
+C:\@Work\정묵프로그래밍\CPP\Science Library\obj\Debug\Science Library.csproj.CopyComplete
+C:\@Work\정묵프로그래밍\CPP\Science Library\obj\Debug\Science Library.exe
+C:\@Work\정묵프로그래밍\CPP\Science Library\obj\Debug\Science Library.pdb
+C:\@Work\정묵프로그래밍\CPP\Science Library\obj\Debug\Science_Library.SignUp.resources
+C:\Users\jmhwa\LibraryManagement\ScienceLibrary\bin\Debug\Science Library.exe.config
+C:\Users\jmhwa\LibraryManagement\ScienceLibrary\bin\Debug\Science Library.exe
+C:\Users\jmhwa\LibraryManagement\ScienceLibrary\bin\Debug\Science Library.pdb
+C:\Users\jmhwa\LibraryManagement\ScienceLibrary\bin\Debug\EntityFramework.dll
+C:\Users\jmhwa\LibraryManagement\ScienceLibrary\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\jmhwa\LibraryManagement\ScienceLibrary\bin\Debug\System.Data.SQLite.dll
+C:\Users\jmhwa\LibraryManagement\ScienceLibrary\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\jmhwa\LibraryManagement\ScienceLibrary\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\jmhwa\LibraryManagement\ScienceLibrary\bin\Debug\EntityFramework.xml
+C:\Users\jmhwa\LibraryManagement\ScienceLibrary\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\jmhwa\LibraryManagement\ScienceLibrary\bin\Debug\System.Data.SQLite.xml
+C:\Users\jmhwa\LibraryManagement\ScienceLibrary\obj\Debug\Science Library.csproj.AssemblyReference.cache
+C:\Users\jmhwa\LibraryManagement\ScienceLibrary\obj\Debug\Science Library.csproj.SuggestedBindingRedirects.cache
+C:\Users\jmhwa\LibraryManagement\ScienceLibrary\obj\Debug\Science_Library.Login.resources
+C:\Users\jmhwa\LibraryManagement\ScienceLibrary\obj\Debug\Science_Library.Main.resources
+C:\Users\jmhwa\LibraryManagement\ScienceLibrary\obj\Debug\Science_Library.Properties.Resources.resources
+C:\Users\jmhwa\LibraryManagement\ScienceLibrary\obj\Debug\Science_Library.SignUp.resources
+C:\Users\jmhwa\LibraryManagement\ScienceLibrary\obj\Debug\Science Library.csproj.GenerateResource.cache
+C:\Users\jmhwa\LibraryManagement\ScienceLibrary\obj\Debug\Science Library.csproj.CoreCompileInputs.cache
+C:\Users\jmhwa\LibraryManagement\ScienceLibrary\obj\Debug\Science Library.csproj.CopyComplete
+C:\Users\jmhwa\LibraryManagement\ScienceLibrary\obj\Debug\Science Library.exe
+C:\Users\jmhwa\LibraryManagement\ScienceLibrary\obj\Debug\Science Library.pdb
+C:\Users\jmhwa\LibraryManagement\ScienceLibrary\obj\Debug\Science_Library.Admin.resources
+C:\Users\jmhwa\LibraryManagement\ScienceLibrary\obj\Debug\Science_Library.MemberList.resources
+C:\Users\jmhwa\LibraryManagement\ScienceLibrary\obj\Debug\Science_Library.AdminLogin.resources
