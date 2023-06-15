@@ -99,6 +99,8 @@
             this.gboxSeminarRoom2 = new System.Windows.Forms.GroupBox();
             this.checkedListBox2 = new System.Windows.Forms.CheckedListBox();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.lblUserID = new System.Windows.Forms.Label();
+            this.txtUserInfo = new System.Windows.Forms.TextBox();
             this.btnRequest = new System.Windows.Forms.Button();
             this.gboxButton = new System.Windows.Forms.GroupBox();
             this.btnReturn = new System.Windows.Forms.Button();
@@ -183,166 +185,183 @@
             // 
             // btnSeat64
             // 
+            this.btnSeat64.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSeat64.Location = new System.Drawing.Point(479, 547);
             this.btnSeat64.Name = "btnSeat64";
             this.btnSeat64.Size = new System.Drawing.Size(62, 51);
-            this.btnSeat64.TabIndex = 79;
+            this.btnSeat64.TabIndex = 63;
             this.btnSeat64.Text = "64";
             this.btnSeat64.UseVisualStyleBackColor = true;
             this.btnSeat64.Click += new System.EventHandler(this.click_seat);
             // 
             // btnSeat63
             // 
+            this.btnSeat63.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSeat63.Location = new System.Drawing.Point(411, 547);
             this.btnSeat63.Name = "btnSeat63";
             this.btnSeat63.Size = new System.Drawing.Size(62, 51);
-            this.btnSeat63.TabIndex = 78;
+            this.btnSeat63.TabIndex = 62;
             this.btnSeat63.Text = "63";
             this.btnSeat63.UseVisualStyleBackColor = true;
             this.btnSeat63.Click += new System.EventHandler(this.click_seat);
             // 
             // btnSeat62
             // 
+            this.btnSeat62.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSeat62.Location = new System.Drawing.Point(343, 547);
             this.btnSeat62.Name = "btnSeat62";
             this.btnSeat62.Size = new System.Drawing.Size(62, 51);
-            this.btnSeat62.TabIndex = 77;
+            this.btnSeat62.TabIndex = 61;
             this.btnSeat62.Text = "62";
             this.btnSeat62.UseVisualStyleBackColor = true;
             this.btnSeat62.Click += new System.EventHandler(this.click_seat);
             // 
             // btnSeat57
             // 
+            this.btnSeat57.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSeat57.Location = new System.Drawing.Point(3, 547);
             this.btnSeat57.Name = "btnSeat57";
             this.btnSeat57.Size = new System.Drawing.Size(62, 51);
-            this.btnSeat57.TabIndex = 72;
+            this.btnSeat57.TabIndex = 56;
             this.btnSeat57.Text = "57";
             this.btnSeat57.UseVisualStyleBackColor = true;
             this.btnSeat57.Click += new System.EventHandler(this.click_seat);
             // 
             // btnSeat61
             // 
+            this.btnSeat61.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSeat61.Location = new System.Drawing.Point(275, 547);
             this.btnSeat61.Name = "btnSeat61";
             this.btnSeat61.Size = new System.Drawing.Size(62, 51);
-            this.btnSeat61.TabIndex = 76;
+            this.btnSeat61.TabIndex = 60;
             this.btnSeat61.Text = "61";
             this.btnSeat61.UseVisualStyleBackColor = true;
             this.btnSeat61.Click += new System.EventHandler(this.click_seat);
             // 
             // btnSeat49
             // 
+            this.btnSeat49.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSeat49.Location = new System.Drawing.Point(3, 452);
             this.btnSeat49.Name = "btnSeat49";
             this.btnSeat49.Size = new System.Drawing.Size(62, 51);
-            this.btnSeat49.TabIndex = 64;
+            this.btnSeat49.TabIndex = 48;
             this.btnSeat49.Text = "49";
             this.btnSeat49.UseVisualStyleBackColor = true;
             this.btnSeat49.Click += new System.EventHandler(this.click_seat);
             // 
             // btnSeat60
             // 
+            this.btnSeat60.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSeat60.Location = new System.Drawing.Point(207, 547);
             this.btnSeat60.Name = "btnSeat60";
             this.btnSeat60.Size = new System.Drawing.Size(62, 51);
-            this.btnSeat60.TabIndex = 75;
+            this.btnSeat60.TabIndex = 59;
             this.btnSeat60.Text = "60";
             this.btnSeat60.UseVisualStyleBackColor = true;
             this.btnSeat60.Click += new System.EventHandler(this.click_seat);
             // 
             // btnSeat50
             // 
+            this.btnSeat50.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSeat50.Location = new System.Drawing.Point(71, 452);
             this.btnSeat50.Name = "btnSeat50";
             this.btnSeat50.Size = new System.Drawing.Size(62, 51);
-            this.btnSeat50.TabIndex = 65;
+            this.btnSeat50.TabIndex = 49;
             this.btnSeat50.Text = "50";
             this.btnSeat50.UseVisualStyleBackColor = true;
             this.btnSeat50.Click += new System.EventHandler(this.click_seat);
             // 
             // btnSeat59
             // 
+            this.btnSeat59.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSeat59.Location = new System.Drawing.Point(139, 547);
             this.btnSeat59.Name = "btnSeat59";
             this.btnSeat59.Size = new System.Drawing.Size(62, 51);
-            this.btnSeat59.TabIndex = 74;
+            this.btnSeat59.TabIndex = 58;
             this.btnSeat59.Text = "59";
             this.btnSeat59.UseVisualStyleBackColor = true;
             this.btnSeat59.Click += new System.EventHandler(this.click_seat);
             // 
             // btnSeat51
             // 
+            this.btnSeat51.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSeat51.Location = new System.Drawing.Point(139, 452);
             this.btnSeat51.Name = "btnSeat51";
             this.btnSeat51.Size = new System.Drawing.Size(62, 51);
-            this.btnSeat51.TabIndex = 66;
+            this.btnSeat51.TabIndex = 50;
             this.btnSeat51.Text = "51";
             this.btnSeat51.UseVisualStyleBackColor = true;
             this.btnSeat51.Click += new System.EventHandler(this.click_seat);
             // 
             // btnSeat58
             // 
+            this.btnSeat58.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSeat58.Location = new System.Drawing.Point(71, 547);
             this.btnSeat58.Name = "btnSeat58";
             this.btnSeat58.Size = new System.Drawing.Size(62, 51);
-            this.btnSeat58.TabIndex = 73;
+            this.btnSeat58.TabIndex = 57;
             this.btnSeat58.Text = "58";
             this.btnSeat58.UseVisualStyleBackColor = true;
             this.btnSeat58.Click += new System.EventHandler(this.click_seat);
             // 
             // btnSeat52
             // 
+            this.btnSeat52.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSeat52.Location = new System.Drawing.Point(207, 452);
             this.btnSeat52.Name = "btnSeat52";
             this.btnSeat52.Size = new System.Drawing.Size(62, 51);
-            this.btnSeat52.TabIndex = 67;
+            this.btnSeat52.TabIndex = 51;
             this.btnSeat52.Text = "52";
             this.btnSeat52.UseVisualStyleBackColor = true;
             this.btnSeat52.Click += new System.EventHandler(this.click_seat);
             // 
             // btnSeat53
             // 
+            this.btnSeat53.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSeat53.Location = new System.Drawing.Point(275, 452);
             this.btnSeat53.Name = "btnSeat53";
             this.btnSeat53.Size = new System.Drawing.Size(62, 51);
-            this.btnSeat53.TabIndex = 68;
+            this.btnSeat53.TabIndex = 52;
             this.btnSeat53.Text = "53";
             this.btnSeat53.UseVisualStyleBackColor = true;
             this.btnSeat53.Click += new System.EventHandler(this.click_seat);
             // 
             // btnSeat56
             // 
+            this.btnSeat56.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSeat56.Location = new System.Drawing.Point(479, 452);
             this.btnSeat56.Name = "btnSeat56";
             this.btnSeat56.Size = new System.Drawing.Size(62, 51);
-            this.btnSeat56.TabIndex = 71;
+            this.btnSeat56.TabIndex = 55;
             this.btnSeat56.Text = "56";
             this.btnSeat56.UseVisualStyleBackColor = true;
             this.btnSeat56.Click += new System.EventHandler(this.click_seat);
             // 
             // btnSeat54
             // 
+            this.btnSeat54.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSeat54.Location = new System.Drawing.Point(343, 452);
             this.btnSeat54.Name = "btnSeat54";
             this.btnSeat54.Size = new System.Drawing.Size(62, 51);
-            this.btnSeat54.TabIndex = 69;
+            this.btnSeat54.TabIndex = 53;
             this.btnSeat54.Text = "54";
             this.btnSeat54.UseVisualStyleBackColor = true;
             this.btnSeat54.Click += new System.EventHandler(this.click_seat);
             // 
             // btnSeat55
             // 
+            this.btnSeat55.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSeat55.Location = new System.Drawing.Point(411, 452);
             this.btnSeat55.Name = "btnSeat55";
             this.btnSeat55.Size = new System.Drawing.Size(62, 51);
-            this.btnSeat55.TabIndex = 70;
+            this.btnSeat55.TabIndex = 54;
             this.btnSeat55.Text = "55";
             this.btnSeat55.UseVisualStyleBackColor = true;
             this.btnSeat55.Click += new System.EventHandler(this.click_seat);
             // 
             // btnSeat48
             // 
+            this.btnSeat48.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSeat48.Location = new System.Drawing.Point(479, 395);
             this.btnSeat48.Name = "btnSeat48";
             this.btnSeat48.Size = new System.Drawing.Size(62, 51);
@@ -353,6 +372,7 @@
             // 
             // btnSeat47
             // 
+            this.btnSeat47.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSeat47.Location = new System.Drawing.Point(411, 395);
             this.btnSeat47.Name = "btnSeat47";
             this.btnSeat47.Size = new System.Drawing.Size(62, 51);
@@ -363,6 +383,7 @@
             // 
             // btnSeat46
             // 
+            this.btnSeat46.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSeat46.Location = new System.Drawing.Point(343, 395);
             this.btnSeat46.Name = "btnSeat46";
             this.btnSeat46.Size = new System.Drawing.Size(62, 51);
@@ -373,6 +394,7 @@
             // 
             // btnSeat45
             // 
+            this.btnSeat45.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSeat45.Location = new System.Drawing.Point(275, 395);
             this.btnSeat45.Name = "btnSeat45";
             this.btnSeat45.Size = new System.Drawing.Size(62, 51);
@@ -383,6 +405,7 @@
             // 
             // btnSeat44
             // 
+            this.btnSeat44.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSeat44.Location = new System.Drawing.Point(207, 395);
             this.btnSeat44.Name = "btnSeat44";
             this.btnSeat44.Size = new System.Drawing.Size(62, 51);
@@ -393,6 +416,7 @@
             // 
             // btnSeat43
             // 
+            this.btnSeat43.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSeat43.Location = new System.Drawing.Point(139, 395);
             this.btnSeat43.Name = "btnSeat43";
             this.btnSeat43.Size = new System.Drawing.Size(62, 51);
@@ -403,6 +427,7 @@
             // 
             // btnSeat42
             // 
+            this.btnSeat42.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSeat42.Location = new System.Drawing.Point(71, 395);
             this.btnSeat42.Name = "btnSeat42";
             this.btnSeat42.Size = new System.Drawing.Size(62, 51);
@@ -413,6 +438,7 @@
             // 
             // btnSeat41
             // 
+            this.btnSeat41.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSeat41.Location = new System.Drawing.Point(3, 395);
             this.btnSeat41.Name = "btnSeat41";
             this.btnSeat41.Size = new System.Drawing.Size(62, 51);
@@ -423,6 +449,7 @@
             // 
             // btnSeat40
             // 
+            this.btnSeat40.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSeat40.Location = new System.Drawing.Point(479, 302);
             this.btnSeat40.Name = "btnSeat40";
             this.btnSeat40.Size = new System.Drawing.Size(62, 51);
@@ -433,6 +460,7 @@
             // 
             // btnSeat39
             // 
+            this.btnSeat39.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSeat39.Location = new System.Drawing.Point(411, 302);
             this.btnSeat39.Name = "btnSeat39";
             this.btnSeat39.Size = new System.Drawing.Size(62, 51);
@@ -443,6 +471,7 @@
             // 
             // btnSeat38
             // 
+            this.btnSeat38.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSeat38.Location = new System.Drawing.Point(343, 302);
             this.btnSeat38.Name = "btnSeat38";
             this.btnSeat38.Size = new System.Drawing.Size(62, 51);
@@ -453,6 +482,7 @@
             // 
             // btnSeat37
             // 
+            this.btnSeat37.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSeat37.Location = new System.Drawing.Point(275, 302);
             this.btnSeat37.Name = "btnSeat37";
             this.btnSeat37.Size = new System.Drawing.Size(62, 51);
@@ -463,6 +493,7 @@
             // 
             // btnSeat36
             // 
+            this.btnSeat36.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSeat36.Location = new System.Drawing.Point(207, 302);
             this.btnSeat36.Name = "btnSeat36";
             this.btnSeat36.Size = new System.Drawing.Size(62, 51);
@@ -473,6 +504,7 @@
             // 
             // btnSeat35
             // 
+            this.btnSeat35.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSeat35.Location = new System.Drawing.Point(139, 302);
             this.btnSeat35.Name = "btnSeat35";
             this.btnSeat35.Size = new System.Drawing.Size(62, 51);
@@ -483,6 +515,7 @@
             // 
             // btnSeat34
             // 
+            this.btnSeat34.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSeat34.Location = new System.Drawing.Point(71, 302);
             this.btnSeat34.Name = "btnSeat34";
             this.btnSeat34.Size = new System.Drawing.Size(62, 51);
@@ -493,6 +526,7 @@
             // 
             // btnSeat33
             // 
+            this.btnSeat33.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSeat33.Location = new System.Drawing.Point(3, 302);
             this.btnSeat33.Name = "btnSeat33";
             this.btnSeat33.Size = new System.Drawing.Size(62, 51);
@@ -503,6 +537,8 @@
             // 
             // btnSeat32
             // 
+            this.btnSeat32.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btnSeat32.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSeat32.Location = new System.Drawing.Point(479, 245);
             this.btnSeat32.Name = "btnSeat32";
             this.btnSeat32.Size = new System.Drawing.Size(62, 51);
@@ -513,6 +549,7 @@
             // 
             // btnSeat31
             // 
+            this.btnSeat31.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSeat31.Location = new System.Drawing.Point(411, 245);
             this.btnSeat31.Name = "btnSeat31";
             this.btnSeat31.Size = new System.Drawing.Size(62, 51);
@@ -523,6 +560,7 @@
             // 
             // btnSeat30
             // 
+            this.btnSeat30.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSeat30.Location = new System.Drawing.Point(343, 245);
             this.btnSeat30.Name = "btnSeat30";
             this.btnSeat30.Size = new System.Drawing.Size(62, 51);
@@ -533,6 +571,7 @@
             // 
             // btnSeat29
             // 
+            this.btnSeat29.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSeat29.Location = new System.Drawing.Point(275, 245);
             this.btnSeat29.Name = "btnSeat29";
             this.btnSeat29.Size = new System.Drawing.Size(62, 51);
@@ -543,6 +582,7 @@
             // 
             // btnSeat28
             // 
+            this.btnSeat28.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSeat28.Location = new System.Drawing.Point(207, 245);
             this.btnSeat28.Name = "btnSeat28";
             this.btnSeat28.Size = new System.Drawing.Size(62, 51);
@@ -553,6 +593,7 @@
             // 
             // btnSeat27
             // 
+            this.btnSeat27.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSeat27.Location = new System.Drawing.Point(139, 245);
             this.btnSeat27.Name = "btnSeat27";
             this.btnSeat27.Size = new System.Drawing.Size(62, 51);
@@ -563,6 +604,7 @@
             // 
             // btnSeat26
             // 
+            this.btnSeat26.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSeat26.Location = new System.Drawing.Point(71, 245);
             this.btnSeat26.Name = "btnSeat26";
             this.btnSeat26.Size = new System.Drawing.Size(62, 51);
@@ -573,6 +615,7 @@
             // 
             // btnSeat25
             // 
+            this.btnSeat25.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSeat25.Location = new System.Drawing.Point(3, 245);
             this.btnSeat25.Name = "btnSeat25";
             this.btnSeat25.Size = new System.Drawing.Size(62, 51);
@@ -583,6 +626,7 @@
             // 
             // btnSeat24
             // 
+            this.btnSeat24.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSeat24.Location = new System.Drawing.Point(479, 150);
             this.btnSeat24.Name = "btnSeat24";
             this.btnSeat24.Size = new System.Drawing.Size(62, 51);
@@ -593,6 +637,7 @@
             // 
             // btnSeat23
             // 
+            this.btnSeat23.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSeat23.Location = new System.Drawing.Point(411, 150);
             this.btnSeat23.Name = "btnSeat23";
             this.btnSeat23.Size = new System.Drawing.Size(62, 51);
@@ -603,6 +648,7 @@
             // 
             // btnSeat22
             // 
+            this.btnSeat22.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSeat22.Location = new System.Drawing.Point(343, 150);
             this.btnSeat22.Name = "btnSeat22";
             this.btnSeat22.Size = new System.Drawing.Size(62, 51);
@@ -613,6 +659,7 @@
             // 
             // btnSeat21
             // 
+            this.btnSeat21.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSeat21.Location = new System.Drawing.Point(275, 150);
             this.btnSeat21.Name = "btnSeat21";
             this.btnSeat21.Size = new System.Drawing.Size(62, 51);
@@ -623,6 +670,7 @@
             // 
             // btnSeat20
             // 
+            this.btnSeat20.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSeat20.Location = new System.Drawing.Point(207, 150);
             this.btnSeat20.Name = "btnSeat20";
             this.btnSeat20.Size = new System.Drawing.Size(62, 51);
@@ -633,6 +681,7 @@
             // 
             // btnSeat19
             // 
+            this.btnSeat19.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSeat19.Location = new System.Drawing.Point(139, 150);
             this.btnSeat19.Name = "btnSeat19";
             this.btnSeat19.Size = new System.Drawing.Size(62, 51);
@@ -643,6 +692,7 @@
             // 
             // btnSeat18
             // 
+            this.btnSeat18.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSeat18.Location = new System.Drawing.Point(71, 150);
             this.btnSeat18.Name = "btnSeat18";
             this.btnSeat18.Size = new System.Drawing.Size(62, 51);
@@ -653,6 +703,7 @@
             // 
             // btnSeat17
             // 
+            this.btnSeat17.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSeat17.Location = new System.Drawing.Point(3, 150);
             this.btnSeat17.Name = "btnSeat17";
             this.btnSeat17.Size = new System.Drawing.Size(62, 51);
@@ -663,6 +714,7 @@
             // 
             // btnSeat16
             // 
+            this.btnSeat16.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSeat16.Location = new System.Drawing.Point(479, 93);
             this.btnSeat16.Name = "btnSeat16";
             this.btnSeat16.Size = new System.Drawing.Size(62, 51);
@@ -673,6 +725,7 @@
             // 
             // btnSeat15
             // 
+            this.btnSeat15.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSeat15.Location = new System.Drawing.Point(411, 93);
             this.btnSeat15.Name = "btnSeat15";
             this.btnSeat15.Size = new System.Drawing.Size(62, 51);
@@ -683,6 +736,7 @@
             // 
             // btnSeat14
             // 
+            this.btnSeat14.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSeat14.Location = new System.Drawing.Point(343, 93);
             this.btnSeat14.Name = "btnSeat14";
             this.btnSeat14.Size = new System.Drawing.Size(62, 51);
@@ -693,6 +747,8 @@
             // 
             // btnSeat13
             // 
+            this.btnSeat13.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.btnSeat13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSeat13.Location = new System.Drawing.Point(275, 93);
             this.btnSeat13.Name = "btnSeat13";
             this.btnSeat13.Size = new System.Drawing.Size(62, 51);
@@ -703,6 +759,7 @@
             // 
             // btnSeat12
             // 
+            this.btnSeat12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSeat12.Location = new System.Drawing.Point(207, 93);
             this.btnSeat12.Name = "btnSeat12";
             this.btnSeat12.Size = new System.Drawing.Size(62, 51);
@@ -713,6 +770,7 @@
             // 
             // btnSeat11
             // 
+            this.btnSeat11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSeat11.Location = new System.Drawing.Point(139, 93);
             this.btnSeat11.Name = "btnSeat11";
             this.btnSeat11.Size = new System.Drawing.Size(62, 51);
@@ -723,6 +781,7 @@
             // 
             // btnSeat10
             // 
+            this.btnSeat10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSeat10.Location = new System.Drawing.Point(71, 93);
             this.btnSeat10.Name = "btnSeat10";
             this.btnSeat10.Size = new System.Drawing.Size(62, 51);
@@ -733,6 +792,7 @@
             // 
             // btnSeat9
             // 
+            this.btnSeat9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSeat9.Location = new System.Drawing.Point(3, 93);
             this.btnSeat9.Name = "btnSeat9";
             this.btnSeat9.Size = new System.Drawing.Size(62, 51);
@@ -743,6 +803,7 @@
             // 
             // btnSeat8
             // 
+            this.btnSeat8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSeat8.Location = new System.Drawing.Point(479, 3);
             this.btnSeat8.Name = "btnSeat8";
             this.btnSeat8.Size = new System.Drawing.Size(62, 51);
@@ -753,6 +814,7 @@
             // 
             // btnSeat7
             // 
+            this.btnSeat7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSeat7.Location = new System.Drawing.Point(411, 3);
             this.btnSeat7.Name = "btnSeat7";
             this.btnSeat7.Size = new System.Drawing.Size(62, 51);
@@ -763,6 +825,7 @@
             // 
             // btnSeat6
             // 
+            this.btnSeat6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSeat6.Location = new System.Drawing.Point(343, 3);
             this.btnSeat6.Name = "btnSeat6";
             this.btnSeat6.Size = new System.Drawing.Size(62, 51);
@@ -773,6 +836,7 @@
             // 
             // btnSeat5
             // 
+            this.btnSeat5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSeat5.Location = new System.Drawing.Point(275, 3);
             this.btnSeat5.Name = "btnSeat5";
             this.btnSeat5.Size = new System.Drawing.Size(62, 51);
@@ -783,6 +847,7 @@
             // 
             // btnSeat4
             // 
+            this.btnSeat4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSeat4.Location = new System.Drawing.Point(207, 3);
             this.btnSeat4.Name = "btnSeat4";
             this.btnSeat4.Size = new System.Drawing.Size(62, 51);
@@ -793,6 +858,7 @@
             // 
             // btnSeat3
             // 
+            this.btnSeat3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSeat3.Location = new System.Drawing.Point(139, 3);
             this.btnSeat3.Name = "btnSeat3";
             this.btnSeat3.Size = new System.Drawing.Size(62, 51);
@@ -803,6 +869,7 @@
             // 
             // btnSeat2
             // 
+            this.btnSeat2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSeat2.Location = new System.Drawing.Point(71, 3);
             this.btnSeat2.Name = "btnSeat2";
             this.btnSeat2.Size = new System.Drawing.Size(62, 51);
@@ -813,6 +880,7 @@
             // 
             // btnSeat1
             // 
+            this.btnSeat1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSeat1.Location = new System.Drawing.Point(3, 3);
             this.btnSeat1.Name = "btnSeat1";
             this.btnSeat1.Size = new System.Drawing.Size(62, 51);
@@ -823,7 +891,7 @@
             // 
             // dateTimePicker1
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(69, 14);
+            this.dateTimePicker1.Location = new System.Drawing.Point(81, 14);
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(200, 25);
             this.dateTimePicker1.TabIndex = 0;
@@ -834,7 +902,7 @@
             this.gboxSeminarRoom1.Controls.Add(this.checkedListBox1);
             this.gboxSeminarRoom1.Location = new System.Drawing.Point(15, 61);
             this.gboxSeminarRoom1.Name = "gboxSeminarRoom1";
-            this.gboxSeminarRoom1.Size = new System.Drawing.Size(332, 207);
+            this.gboxSeminarRoom1.Size = new System.Drawing.Size(332, 126);
             this.gboxSeminarRoom1.TabIndex = 3;
             this.gboxSeminarRoom1.TabStop = false;
             this.gboxSeminarRoom1.Text = "Seminar Room 1";
@@ -850,15 +918,15 @@
             "18:00 ~ 20:50"});
             this.checkedListBox1.Location = new System.Drawing.Point(6, 17);
             this.checkedListBox1.Name = "checkedListBox1";
-            this.checkedListBox1.Size = new System.Drawing.Size(320, 184);
+            this.checkedListBox1.Size = new System.Drawing.Size(318, 104);
             this.checkedListBox1.TabIndex = 1;
             // 
             // gboxSeminarRoom2
             // 
             this.gboxSeminarRoom2.Controls.Add(this.checkedListBox2);
-            this.gboxSeminarRoom2.Location = new System.Drawing.Point(15, 274);
+            this.gboxSeminarRoom2.Location = new System.Drawing.Point(15, 217);
             this.gboxSeminarRoom2.Name = "gboxSeminarRoom2";
-            this.gboxSeminarRoom2.Size = new System.Drawing.Size(332, 213);
+            this.gboxSeminarRoom2.Size = new System.Drawing.Size(332, 136);
             this.gboxSeminarRoom2.TabIndex = 0;
             this.gboxSeminarRoom2.TabStop = false;
             this.gboxSeminarRoom2.Text = "Seminar Room 2";
@@ -874,11 +942,13 @@
             "18:00 ~ 20:50"});
             this.checkedListBox2.Location = new System.Drawing.Point(6, 24);
             this.checkedListBox2.Name = "checkedListBox2";
-            this.checkedListBox2.Size = new System.Drawing.Size(320, 184);
+            this.checkedListBox2.Size = new System.Drawing.Size(318, 104);
             this.checkedListBox2.TabIndex = 2;
             // 
             // panel2
             // 
+            this.panel2.Controls.Add(this.lblUserID);
+            this.panel2.Controls.Add(this.txtUserInfo);
             this.panel2.Controls.Add(this.gboxSeminarRoom2);
             this.panel2.Controls.Add(this.gboxSeminarRoom1);
             this.panel2.Controls.Add(this.dateTimePicker1);
@@ -887,14 +957,32 @@
             this.panel2.Size = new System.Drawing.Size(362, 503);
             this.panel2.TabIndex = 0;
             // 
+            // lblUserID
+            // 
+            this.lblUserID.AutoSize = true;
+            this.lblUserID.Location = new System.Drawing.Point(12, 366);
+            this.lblUserID.Name = "lblUserID";
+            this.lblUserID.Size = new System.Drawing.Size(45, 15);
+            this.lblUserID.TabIndex = 64;
+            this.lblUserID.Text = "label1";
+            // 
+            // txtUserInfo
+            // 
+            this.txtUserInfo.Location = new System.Drawing.Point(21, 395);
+            this.txtUserInfo.Multiline = true;
+            this.txtUserInfo.Name = "txtUserInfo";
+            this.txtUserInfo.Size = new System.Drawing.Size(318, 85);
+            this.txtUserInfo.TabIndex = 4;
+            // 
             // btnRequest
             // 
             this.btnRequest.Location = new System.Drawing.Point(21, 25);
             this.btnRequest.Name = "btnRequest";
             this.btnRequest.Size = new System.Drawing.Size(102, 64);
             this.btnRequest.TabIndex = 1;
-            this.btnRequest.Text = "Request";
+            this.btnRequest.Text = "좌석 신청";
             this.btnRequest.UseVisualStyleBackColor = true;
+            this.btnRequest.Click += new System.EventHandler(this.btnRequest_Click);
             // 
             // gboxButton
             // 
@@ -914,8 +1002,9 @@
             this.btnReturn.Name = "btnReturn";
             this.btnReturn.Size = new System.Drawing.Size(102, 64);
             this.btnReturn.TabIndex = 3;
-            this.btnReturn.Text = "Return";
+            this.btnReturn.Text = "좌석 반납";
             this.btnReturn.UseVisualStyleBackColor = true;
+            this.btnReturn.Click += new System.EventHandler(this.btnReturn_Click);
             // 
             // btnProlong
             // 
@@ -923,8 +1012,9 @@
             this.btnProlong.Name = "btnProlong";
             this.btnProlong.Size = new System.Drawing.Size(102, 64);
             this.btnProlong.TabIndex = 2;
-            this.btnProlong.Text = "Prolong";
+            this.btnProlong.Text = "좌석 연장";
             this.btnProlong.UseVisualStyleBackColor = true;
+            this.btnProlong.Click += new System.EventHandler(this.btnProlong_Click);
             // 
             // Main
             // 
@@ -940,6 +1030,7 @@
             this.gboxSeminarRoom1.ResumeLayout(false);
             this.gboxSeminarRoom2.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
             this.gboxButton.ResumeLayout(false);
             this.ResumeLayout(false);
 
@@ -1022,5 +1113,7 @@
         private System.Windows.Forms.GroupBox gboxButton;
         private System.Windows.Forms.Button btnReturn;
         private System.Windows.Forms.Button btnProlong;
+        private System.Windows.Forms.Label lblUserID;
+        private System.Windows.Forms.TextBox txtUserInfo;
     }
 }

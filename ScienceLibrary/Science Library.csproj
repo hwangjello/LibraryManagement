@@ -98,6 +98,12 @@
       <DependentUpon>MemberList.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
+    <Compile Include="SeminarRoom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SeminarRoom.Designer.cs">
+      <DependentUpon>SeminarRoom.cs</DependentUpon>
+    </Compile>
     <Compile Include="SignUp.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -142,6 +148,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="SeminarRoom.resx">
+      <DependentUpon>SeminarRoom.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="SignUp.resx">
       <DependentUpon>SignUp.cs</DependentUpon>
     </EmbeddedResource>

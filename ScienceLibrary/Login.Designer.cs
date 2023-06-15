@@ -37,6 +37,7 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.btnAdmin = new System.Windows.Forms.Button();
             this.lblIsConfirmed = new System.Windows.Forms.Label();
+            this.btnSeminar = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -77,19 +78,19 @@
             // 
             this.btnLogin.Location = new System.Drawing.Point(62, 248);
             this.btnLogin.Name = "btnLogin";
-            this.btnLogin.Size = new System.Drawing.Size(146, 40);
+            this.btnLogin.Size = new System.Drawing.Size(87, 40);
             this.btnLogin.TabIndex = 4;
-            this.btnLogin.Text = "Log In";
+            this.btnLogin.Text = "로그인";
             this.btnLogin.UseVisualStyleBackColor = true;
             this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
             // 
             // btnSignin
             // 
-            this.btnSignin.Location = new System.Drawing.Point(239, 248);
+            this.btnSignin.Location = new System.Drawing.Point(198, 248);
             this.btnSignin.Name = "btnSignin";
-            this.btnSignin.Size = new System.Drawing.Size(146, 37);
+            this.btnSignin.Size = new System.Drawing.Size(87, 37);
             this.btnSignin.TabIndex = 5;
-            this.btnSignin.Text = "Sign Up";
+            this.btnSignin.Text = "회원가입";
             this.btnSignin.UseVisualStyleBackColor = true;
             this.btnSignin.Click += new System.EventHandler(this.btnSignin_Click);
             // 
@@ -106,11 +107,11 @@
             // 
             // btnAdmin
             // 
-            this.btnAdmin.Location = new System.Drawing.Point(412, 248);
+            this.btnAdmin.Location = new System.Drawing.Point(459, 248);
             this.btnAdmin.Name = "btnAdmin";
-            this.btnAdmin.Size = new System.Drawing.Size(146, 37);
+            this.btnAdmin.Size = new System.Drawing.Size(87, 37);
             this.btnAdmin.TabIndex = 7;
-            this.btnAdmin.Text = "Admin";
+            this.btnAdmin.Text = "관리자";
             this.btnAdmin.UseVisualStyleBackColor = true;
             this.btnAdmin.Click += new System.EventHandler(this.btnAdmin_Click);
             // 
@@ -123,11 +124,22 @@
             this.lblIsConfirmed.Size = new System.Drawing.Size(0, 15);
             this.lblIsConfirmed.TabIndex = 8;
             // 
+            // btnSeminar
+            // 
+            this.btnSeminar.Location = new System.Drawing.Point(332, 248);
+            this.btnSeminar.Name = "btnSeminar";
+            this.btnSeminar.Size = new System.Drawing.Size(90, 37);
+            this.btnSeminar.TabIndex = 9;
+            this.btnSeminar.Text = "세미나실";
+            this.btnSeminar.UseVisualStyleBackColor = true;
+            this.btnSeminar.Click += new System.EventHandler(this.btnSeminar_Click);
+            // 
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(621, 311);
+            this.Controls.Add(this.btnSeminar);
             this.Controls.Add(this.lblIsConfirmed);
             this.Controls.Add(this.btnAdmin);
             this.Controls.Add(this.panel1);
@@ -153,6 +165,7 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button btnAdmin;
         private System.Windows.Forms.Label lblIsConfirmed;
+        private System.Windows.Forms.Button btnSeminar;
     }
 }
 

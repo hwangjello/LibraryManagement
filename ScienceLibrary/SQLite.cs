@@ -7,6 +7,8 @@ using System.Data;
 using System.Data.SQLite;
 using System.Reflection; //Assembly
 using System.IO;
+using System.Windows.Forms.Design;
+using System.Windows.Forms;
 
 namespace Science_Library.DB
 {
@@ -101,34 +103,111 @@ namespace Science_Library.DB
             else return 0;
         }
 
-        public void insert_seat()
+        public void insert_seat(int seat_num,int seat_user_id,int returnhour,int returnminute)
         {
-            //SQLiteCommand cmd = new SQLiteCommand("INSERT INTO seat VALUES ('" + i.ToString() + "' , '20196030" + i.ToString()+"')", con);
-            //cmd.ExecuteNonQuery();
+            SQLiteCommand cmd = new SQLiteCommand("INSERT INTO seat VALUES ('" + (seat_num+1).ToString() + "' , '" + seat_user_id.ToString() + "' , '" + returnhour.ToString()+"' , '" + returnminute.ToString()+ "')", con);
+            cmd.ExecuteNonQuery();
+
+
+        }
+        public void time_prolong(int user_id, int user_hour, int user_min)
+        {
+            int max_time = 22;
+            if (user_hour >= 18)
+            {
+                SQLiteCommand cmd = new SQLiteCommand("UPDATE seat SET hour =" + max_time.ToString() + " WHERE ID = " + user_id.ToString() + ";", con);
+                cmd.ExecuteNonQuery();
+                MessageBox.Show("좌석 예약 시간 연장이 완료되었습니다.");
+            }
+            else
+            {
+                SQLiteCommand cmd = new SQLiteCommand("UPDATE seat SET hour =" + (user_hour+4).ToString() + " WHERE ID = " + user_id.ToString() + ";", con);
+                cmd.ExecuteNonQuery();
+            }
             
 
         }
-
-        public void return_seat(int seat_number)
+        public int get_seat(int user_id)
         {
-            SQLiteCommand cmd = con.CreateCommand();
-            cmd.Connection = con;
-
-            cmd.CommandText = "UPDATE seat SET ID = 0 WHERE seat_number = "+seat_number.ToString()+"; COMMIT;";
-        }
-        public void show_seat()
-        {
-            SQLiteCommand cmd = con.CreateCommand();
-            cmd.Connection = con;
-            cmd.CommandText = "SELECT * FROM seat";
-
+            string query="SELECT seat_number FROM seat WHERE ID="+user_id.ToString()+";";
+            SQLiteCommand cmd = new SQLiteCommand(query, con);
             SQLiteDataReader reader = cmd.ExecuteReader();
+            List<int> my_seat = new List<int>();
             while (reader.Read())
             {
-                int seat_number = Convert.ToInt32(reader[0]);
-                int ID = Convert.ToInt32(reader[1]);
-                Console.WriteLine("Seat Number : {0}, ID : {1}", seat_number, ID);
+                int count = Convert.ToInt32(reader["seat_number"]);// 행의 값을 가져와서 처리
+
+                my_seat.Add(count);// 벡터 사전에 추가
             }
+            return my_seat[0];
+
+        }
+        public void return_seat(int seat_number)
+        {
+            SQLiteCommand cmd = new SQLiteCommand("UPDATE seat SET ID = 0 WHERE seat_number = " + seat_number.ToString() + ";", con);
+            cmd.ExecuteNonQuery();
+
+            
+        }
+        public int seat_confirm(int inID)
+        {
+            string query = "SELECT count(ID) FROM seat WHERE ID=" + inID.ToString() +";" ;
+            SQLiteCommand cmd = new SQLiteCommand(query, con);
+            SQLiteDataReader reader = cmd.ExecuteReader();
+
+            List<int> count_info = new List<int>();
+            while (reader.Read())
+            {
+                // 행의 값을 가져와서 처리
+                int count = Convert.ToInt32(reader["count(ID)"]);
+
+
+                // 벡터 사전에 추가
+                count_info.Add(count);
+            }
+            if (count_info[0] > 0)
+            {
+                return 0;
+            }
+            else return 1;
+        }
+        public Dictionary<int, int> show_seat(int seat_user_id)
+        {
+            string query = "SELECT * FROM seat WHERE ID="+seat_user_id+";";
+            SQLiteCommand cmd = new SQLiteCommand(query, con);
+            SQLiteDataReader reader = cmd.ExecuteReader();
+            Dictionary<int, int> seat_info = new Dictionary<int, int>();
+
+
+            while (reader.Read())
+            {
+                int key = Convert.ToInt32(reader["seat_number"]);
+                int value = Convert.ToInt32(reader["ID"]);
+
+                seat_info.Add(key, value);
+            }
+
+            return seat_info;
+            
+        }
+        public Dictionary<int, int> show_returnTime(int seat_user_id)
+        {
+            string query = "SELECT * FROM seat WHERE ID=" + seat_user_id + ";";
+            SQLiteCommand cmd = new SQLiteCommand(query, con);
+            SQLiteDataReader reader = cmd.ExecuteReader();
+            Dictionary<int, int> returnTime_info = new Dictionary<int, int>();
+
+
+            while (reader.Read())
+            {
+                int key = Convert.ToInt32(reader["hour"]);
+                int value = Convert.ToInt32(reader["minute"]);
+
+                returnTime_info.Add(key, value);
+            }
+
+            return returnTime_info;
+
         }
 
     }

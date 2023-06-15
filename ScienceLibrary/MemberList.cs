@@ -45,6 +45,7 @@ namespace Science_Library
 
             selRow.Row.Delete();
             sql.user_delete(selectedID);
+            MessageBox.Show("회원삭제 성공");
         }
     }
 }

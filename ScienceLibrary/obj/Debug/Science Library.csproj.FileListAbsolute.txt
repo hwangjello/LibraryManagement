@@ -87,3 +87,4 @@ C:\Users\jmhwa\LibraryManagement\ScienceLibrary\obj\Debug\Science Library.pdb
 C:\Users\jmhwa\LibraryManagement\ScienceLibrary\obj\Debug\Science_Library.Admin.resources
 C:\Users\jmhwa\LibraryManagement\ScienceLibrary\obj\Debug\Science_Library.MemberList.resources
 C:\Users\jmhwa\LibraryManagement\ScienceLibrary\obj\Debug\Science_Library.AdminLogin.resources
+C:\Users\jmhwa\LibraryManagement\ScienceLibrary\obj\Debug\Science_Library.SeminarRoom.resources

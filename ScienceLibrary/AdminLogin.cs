@@ -26,6 +26,7 @@ namespace Science_Library
             if (txtAdminId.Text == adminId && txtAdminPw.Text == adminPwd)
             {
                 adminForm.Show();
+                this.Close();
             }
             else
             {

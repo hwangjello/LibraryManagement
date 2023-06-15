@@ -19,7 +19,7 @@ namespace Science_Library
             Application.SetCompatibleTextRenderingDefault(false);
             SQLite sql = new SQLite();
             sql.connect_db();
-            sql.show_seat();
+            //sql.show_seat();
             sql.disconnect_db();
             Application.Run(new Login());
         }

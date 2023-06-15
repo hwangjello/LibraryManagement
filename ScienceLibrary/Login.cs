@@ -22,27 +22,32 @@ namespace Science_Library
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
-            Main main = new Main();
-            int result = 0;
-            int writtenID=int.Parse(txtId.Text);
-            string writtenPW=txtPw.Text;
-            sql.connect_db();
-            result=sql.login_confirm(writtenID, writtenPW);
-
-            if (result == 1)
-            {
-                main.Show();
-            }
-            else
+            if (txtId.Text == "" || txtPw.Text=="")
             {
                 lblIsConfirmed.Text = "입력정보가 올바르지 않습니다.";
             }
+            else
+            {
+                int writtenID = int.Parse(txtId.Text);
+                Main main = new Main(writtenID);
+                int result = 0;
+                string writtenPW = txtPw.Text;
+                sql.connect_db();
+                result = sql.login_confirm(writtenID, writtenPW);
+
+                if (result == 1)
+                {
+                    main.Show();
+                    //this.Close();
+                }
+                else
+                {
+                    lblIsConfirmed.Text = "입력정보가 올바르지 않습니다.";
+                }
+            }
+            
         }
-        //string in_name = txtName.Text;
-        //int in_id = int.Parse(txtID.Text);
-        //string in_pw = txtPW.Text;
-        //sql.connect_db();
-        //sql.user_insert(in_id, in_name, in_pw);
+        
         private void btnSignin_Click(object sender, EventArgs e)
         {
             SignUp signup = new SignUp();
@@ -52,6 +57,12 @@ namespace Science_Library
         {
             AdminLogin adminLogin = new AdminLogin();
             adminLogin.Show();
+        }
+
+        private void btnSeminar_Click(object sender, EventArgs e)
+        {
+            SeminarRoom seminar = new SeminarRoom();
+            seminar.Show();
         }
     }
     

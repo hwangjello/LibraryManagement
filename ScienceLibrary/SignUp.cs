@@ -90,6 +90,7 @@ namespace Science_Library
             if (result == 1)
             {
                 sql.user_insert(in_id, in_name, in_pw);
+                MessageBox.Show("회원가입 성공!");
                 this.Close();
             }
             else
