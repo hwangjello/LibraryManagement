@@ -93,11 +93,6 @@
             this.btnSeat3 = new System.Windows.Forms.Button();
             this.btnSeat2 = new System.Windows.Forms.Button();
             this.btnSeat1 = new System.Windows.Forms.Button();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.gboxSeminarRoom1 = new System.Windows.Forms.GroupBox();
-            this.checkedListBox1 = new System.Windows.Forms.CheckedListBox();
-            this.gboxSeminarRoom2 = new System.Windows.Forms.GroupBox();
-            this.checkedListBox2 = new System.Windows.Forms.CheckedListBox();
             this.panel2 = new System.Windows.Forms.Panel();
             this.lblUserID = new System.Windows.Forms.Label();
             this.txtUserInfo = new System.Windows.Forms.TextBox();
@@ -106,8 +101,6 @@
             this.btnReturn = new System.Windows.Forms.Button();
             this.btnProlong = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
-            this.gboxSeminarRoom1.SuspendLayout();
-            this.gboxSeminarRoom2.SuspendLayout();
             this.panel2.SuspendLayout();
             this.gboxButton.SuspendLayout();
             this.SuspendLayout();
@@ -889,69 +882,10 @@
             this.btnSeat1.UseVisualStyleBackColor = true;
             this.btnSeat1.Click += new System.EventHandler(this.click_seat);
             // 
-            // dateTimePicker1
-            // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(81, 14);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(200, 25);
-            this.dateTimePicker1.TabIndex = 0;
-            this.dateTimePicker1.ValueChanged += new System.EventHandler(this.dateTimePicker1_ValueChanged);
-            // 
-            // gboxSeminarRoom1
-            // 
-            this.gboxSeminarRoom1.Controls.Add(this.checkedListBox1);
-            this.gboxSeminarRoom1.Location = new System.Drawing.Point(15, 61);
-            this.gboxSeminarRoom1.Name = "gboxSeminarRoom1";
-            this.gboxSeminarRoom1.Size = new System.Drawing.Size(332, 126);
-            this.gboxSeminarRoom1.TabIndex = 3;
-            this.gboxSeminarRoom1.TabStop = false;
-            this.gboxSeminarRoom1.Text = "Seminar Room 1";
-            // 
-            // checkedListBox1
-            // 
-            this.checkedListBox1.FormattingEnabled = true;
-            this.checkedListBox1.Items.AddRange(new object[] {
-            "6:00 ~ 8:50",
-            "9:00 ~ 11:50",
-            "12:00 ~ 14:50",
-            "15:00 ~ 17:50",
-            "18:00 ~ 20:50"});
-            this.checkedListBox1.Location = new System.Drawing.Point(6, 17);
-            this.checkedListBox1.Name = "checkedListBox1";
-            this.checkedListBox1.Size = new System.Drawing.Size(318, 104);
-            this.checkedListBox1.TabIndex = 1;
-            // 
-            // gboxSeminarRoom2
-            // 
-            this.gboxSeminarRoom2.Controls.Add(this.checkedListBox2);
-            this.gboxSeminarRoom2.Location = new System.Drawing.Point(15, 217);
-            this.gboxSeminarRoom2.Name = "gboxSeminarRoom2";
-            this.gboxSeminarRoom2.Size = new System.Drawing.Size(332, 136);
-            this.gboxSeminarRoom2.TabIndex = 0;
-            this.gboxSeminarRoom2.TabStop = false;
-            this.gboxSeminarRoom2.Text = "Seminar Room 2";
-            // 
-            // checkedListBox2
-            // 
-            this.checkedListBox2.FormattingEnabled = true;
-            this.checkedListBox2.Items.AddRange(new object[] {
-            "6:00 ~ 8:50",
-            "9:00 ~ 11:50",
-            "12:00 ~ 14:50",
-            "15:00 ~ 17:50",
-            "18:00 ~ 20:50"});
-            this.checkedListBox2.Location = new System.Drawing.Point(6, 24);
-            this.checkedListBox2.Name = "checkedListBox2";
-            this.checkedListBox2.Size = new System.Drawing.Size(318, 104);
-            this.checkedListBox2.TabIndex = 2;
-            // 
             // panel2
             // 
             this.panel2.Controls.Add(this.lblUserID);
             this.panel2.Controls.Add(this.txtUserInfo);
-            this.panel2.Controls.Add(this.gboxSeminarRoom2);
-            this.panel2.Controls.Add(this.gboxSeminarRoom1);
-            this.panel2.Controls.Add(this.dateTimePicker1);
             this.panel2.Location = new System.Drawing.Point(562, 12);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(362, 503);
@@ -960,18 +894,20 @@
             // lblUserID
             // 
             this.lblUserID.AutoSize = true;
-            this.lblUserID.Location = new System.Drawing.Point(12, 366);
+            this.lblUserID.Font = new System.Drawing.Font("굴림", 20F);
+            this.lblUserID.Location = new System.Drawing.Point(15, 20);
             this.lblUserID.Name = "lblUserID";
-            this.lblUserID.Size = new System.Drawing.Size(45, 15);
+            this.lblUserID.Size = new System.Drawing.Size(110, 34);
             this.lblUserID.TabIndex = 64;
             this.lblUserID.Text = "label1";
             // 
             // txtUserInfo
             // 
-            this.txtUserInfo.Location = new System.Drawing.Point(21, 395);
+            this.txtUserInfo.Font = new System.Drawing.Font("굴림", 12F);
+            this.txtUserInfo.Location = new System.Drawing.Point(21, 228);
             this.txtUserInfo.Multiline = true;
             this.txtUserInfo.Name = "txtUserInfo";
-            this.txtUserInfo.Size = new System.Drawing.Size(318, 85);
+            this.txtUserInfo.Size = new System.Drawing.Size(318, 252);
             this.txtUserInfo.TabIndex = 4;
             // 
             // btnRequest
@@ -1027,8 +963,6 @@
             this.Name = "Main";
             this.Text = "Main";
             this.panel1.ResumeLayout(false);
-            this.gboxSeminarRoom1.ResumeLayout(false);
-            this.gboxSeminarRoom2.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             this.gboxButton.ResumeLayout(false);
@@ -1103,11 +1037,6 @@
         private System.Windows.Forms.Button btnSeat3;
         private System.Windows.Forms.Button btnSeat2;
         private System.Windows.Forms.Button btnSeat1;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
-        private System.Windows.Forms.GroupBox gboxSeminarRoom1;
-        private System.Windows.Forms.CheckedListBox checkedListBox1;
-        private System.Windows.Forms.GroupBox gboxSeminarRoom2;
-        private System.Windows.Forms.CheckedListBox checkedListBox2;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Button btnRequest;
         private System.Windows.Forms.GroupBox gboxButton;

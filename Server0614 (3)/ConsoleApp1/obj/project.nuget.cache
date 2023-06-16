@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "F3JAaSytAAlJCfsuqL/810VwraOx7F1+HphtZfCZAO6qoPibWrAfPBBuCxublZ0MVaZ8X4R8HZD5bZII0dsBCA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\jmhwa\\OneDrive\\문서\\카카오톡 받은 파일\\Server0614 (3)\\ConsoleApp1\\client_0605.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jmhwa\\.nuget\\packages\\stub.system.data.sqlite.core.netstandard\\1.0.117\\stub.system.data.sqlite.core.netstandard.1.0.117.nupkg.sha512",
+    "C:\\Users\\jmhwa\\.nuget\\packages\\system.data.sqlite.core\\1.0.117\\system.data.sqlite.core.1.0.117.nupkg.sha512"
+  ],
+  "logs": []
+}

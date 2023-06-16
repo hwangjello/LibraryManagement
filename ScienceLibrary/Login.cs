@@ -10,17 +10,22 @@ using System.Windows.Forms;
 using System.Xml.Linq;
 using Science_Library.DB;
 using System.Data.SQLite;
+using Client_Code;
+
+
 namespace Science_Library
 {
     public partial class Login : Form
     {
         SQLite sql = new SQLite();
+        
         public Login()
         {
             InitializeComponent();
+            
         }
 
-        private void btnLogin_Click(object sender, EventArgs e)
+        private async void btnLogin_Click(object sender, EventArgs e)
         {
             if (txtId.Text == "" || txtPw.Text=="")
             {
@@ -32,12 +37,18 @@ namespace Science_Library
                 Main main = new Main(writtenID);
                 int result = 0;
                 string writtenPW = txtPw.Text;
+                
+                string s_writtenID = writtenID.ToString();
+                Program.a.S_login(s_writtenID,writtenPW);
+
                 sql.connect_db();
                 result = sql.login_confirm(writtenID, writtenPW);
-
+                //여기서는 학번비번보내서 sql처리
                 if (result == 1)
                 {
                     main.Show();
+                    //string filePathToDelete = "C:\\Users\\my\\Desktop\\응\\ScienceLibrary\\DB\\d_info.db";
+                  // Program.a.DeleteDBFileInFolder(filePathToDelete);
                     //this.Close();
                 }
                 else

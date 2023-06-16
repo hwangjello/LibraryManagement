@@ -97,7 +97,7 @@
             this.btnAdminLogin.Location = new System.Drawing.Point(210, 251);
             this.btnAdminLogin.Name = "btnAdminLogin";
             this.btnAdminLogin.Size = new System.Drawing.Size(142, 49);
-            this.btnAdminLogin.TabIndex = 9;
+            this.btnAdminLogin.TabIndex = 0;
             this.btnAdminLogin.Text = "Log In";
             this.btnAdminLogin.UseVisualStyleBackColor = true;
             this.btnAdminLogin.Click += new System.EventHandler(this.btnAdminLogin_Click);

@@ -20,12 +20,17 @@ namespace Science_Library
             InitializeComponent();
         }
 
-        private void btnAdminLogin_Click(object sender, EventArgs e)
+        private async void btnAdminLogin_Click(object sender, EventArgs e)
         {
             Admin adminForm = new Admin();
-            if (txtAdminId.Text == adminId && txtAdminPw.Text == adminPwd)
+            MemberList memList=new MemberList();
+            string aid = txtAdminId.Text;
+            string apw = txtAdminPw.Text;
+            //Program.a.S_login(aid, apw);
+            //string receivedData = await Program.a.ReceiveStringFromServer();
+            if (aid == adminId && apw==adminPwd)
             {
-                adminForm.Show();
+                memList.Show();
                 this.Close();
             }
             else

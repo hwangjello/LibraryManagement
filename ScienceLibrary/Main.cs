@@ -52,7 +52,7 @@ namespace Science_Library
                 }
                 foreach (var time in return_info)
                 {
-                    txtUserInfo.Text = txtUserInfo.Text+ ", 반납시간 : " + time.Key + ":" + time.Value + "0";
+                    txtUserInfo.Text = txtUserInfo.Text+ ", 반납시간 : " + time.Key + ":" + time.Value ;
                 }
             }
             else
@@ -81,7 +81,8 @@ namespace Science_Library
             //int seat_num = seats.IndexOf(seats.Last());
             int seat_num = seats.Last();
             int seat_user_id = user_id;
-            
+            string s_num = seat_num.ToString();
+            Program.a.S_num(s_num);
             hour = nowTime.Hour;
             minute = nowTime.Minute;
             int returnhour;
@@ -112,7 +113,7 @@ namespace Science_Library
             }
             foreach (var time in return_info)
             {
-                txtUserInfo.Text = txtUserInfo.Text + ", 반납시간 : " + time.Key + ":" + time.Value+"0";
+                txtUserInfo.Text = txtUserInfo.Text + ", 반납시간 : " + time.Key + ":" + time.Value;
             }
             MessageBox.Show("좌석 예약이 완료되었습니다.");
         }
@@ -134,7 +135,7 @@ namespace Science_Library
             {
                 user_hour = time.Key;
                 user_min = time.Value;
-                txtUserInfo.Text = txtUserInfo.Text + ", 반납시간 : " + time.Key + ":" + time.Value + "0";
+                txtUserInfo.Text = txtUserInfo.Text + ", 반납시간 : " + time.Key + ":" + time.Value ;
                 
             }
             sql.time_prolong(user_id,now_hour,now_min);

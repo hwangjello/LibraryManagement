@@ -116,7 +116,7 @@
             this.txtPW_confirm.Name = "txtPW_confirm";
             this.txtPW_confirm.PasswordChar = '*';
             this.txtPW_confirm.Size = new System.Drawing.Size(153, 25);
-            this.txtPW_confirm.TabIndex = 9;
+            this.txtPW_confirm.TabIndex = 3;
             // 
             // PW_visible
             // 
@@ -135,7 +135,7 @@
             this.lblConfirm.ForeColor = System.Drawing.Color.Red;
             this.lblConfirm.Location = new System.Drawing.Point(190, 396);
             this.lblConfirm.Name = "lblConfirm";
-            this.lblConfirm.Size = new System.Drawing.Size(0, 19);
+            this.lblConfirm.Size = new System.Drawing.Size(0, 15);
             this.lblConfirm.TabIndex = 11;
             // 
             // SignUp

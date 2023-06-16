@@ -83,6 +83,7 @@
     <Compile Include="Admin_Status.Designer.cs">
       <DependentUpon>Admin_Status.cs</DependentUpon>
     </Compile>
+    <Compile Include="Client.cs" />
     <Compile Include="MemberData.cs">
       <DependentUpon>MemberData.xsd</DependentUpon>
     </Compile>

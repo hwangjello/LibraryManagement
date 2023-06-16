@@ -15,7 +15,7 @@ namespace Science_Library
     public partial class SignUp : Form
     {
         SQLite sql = new SQLite();
-        
+        int result = 0;
 
         public SignUp()
         {
@@ -78,19 +78,24 @@ namespace Science_Library
             //}
         }
 
-        private void btnSignOK_Click(object sender, EventArgs e)
+        private async void btnSignOK_Click(object sender, EventArgs e)
         {
             
-            int result = 0;
+            
             string in_name = txtName.Text;
             int in_id = int.Parse(txtID.Text);
+            string sin_id = txtID.Text;
             string in_pw = txtPW.Text;
+            Program.a.S_signup(in_name,sin_id,in_pw);
+            //string receivedData = await Program.a.ReceiveStringFromServer();
             sql.connect_db();
             result=sql.signup_confirm(in_id);
             if (result == 1)
             {
                 sql.user_insert(in_id, in_name, in_pw);
                 MessageBox.Show("회원가입 성공!");
+                //string filePath = "C:\\Users\\my\\Desktop\\응\\ScienceLibrary\\DB\\d_info.db"; // DB 파일의 경로
+                //Program.a.SendDBFile(filePath);
                 this.Close();
             }
             else
