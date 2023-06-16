@@ -23,8 +23,8 @@ namespace Science_Library
            
 
             a = new Client();
-            //string savePath = "C:\\Users\\my\\Desktop\\응\\ScienceLibrary\\DB\\d_info.db"; // DB 파일을 저장할 경로와 파일명
-            //a.ReceiveDBFile(savePath);
+            string savePath = "C:\\Users\\jmhwa\\LibraryManagement\\ScienceLibrary\\DB\\d_info.db"; // DB 파일을 저장할 경로와 파일명
+            a.ReceiveDBFile(savePath);
             a.Run();
             
             

@@ -117,7 +117,7 @@ namespace Science_Library.DB
             {
                 SQLiteCommand cmd = new SQLiteCommand("UPDATE seat SET hour =" + max_time.ToString() + " WHERE ID = " + user_id.ToString() + ";", con);
                 cmd.ExecuteNonQuery();
-                MessageBox.Show("좌석 예약 시간 연장이 완료되었습니다.");
+                //MessageBox.Show("좌석 예약 시간 연장이 완료되었습니다.");
             }
             else
             {

@@ -37,8 +37,8 @@ namespace Client_Code
                         cancellationTokenSource = new CancellationTokenSource();
                         CancellationToken cancellationToken = cancellationTokenSource.Token;
 
-                        string serverIP = "192.168.0.67";
-                        int serverPort = 222;
+                        string serverIP = "192.168.50.114";
+                        int serverPort = 9012;
 
                         while (true)
                         {

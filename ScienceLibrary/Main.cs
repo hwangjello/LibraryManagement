@@ -48,11 +48,11 @@ namespace Science_Library
                 return_info=sql.show_returnTime(user_id);
                 foreach (var mem in seat_info)
                 {
-                    txtUserInfo.Text = "좌석 번호 : " + mem.Key + ", 학번 : " + mem.Value;
+                    txtUserInfo.Text = "좌석 번호 : " + mem.Key + "\r\n학번 : " + mem.Value;
                 }
                 foreach (var time in return_info)
                 {
-                    txtUserInfo.Text = txtUserInfo.Text+ ", 반납시간 : " + time.Key + ":" + time.Value ;
+                    txtUserInfo.Text = txtUserInfo.Text+ "\r\n반납시간 : " + time.Key + ":" + time.Value ;
                 }
             }
             else
@@ -109,11 +109,11 @@ namespace Science_Library
             return_info = sql.show_returnTime(seat_user_id);
             foreach (var mem in seat_info)
             {
-                txtUserInfo.Text = "좌석 번호 : " + mem.Key + ", 학번 : " + mem.Value;
+                txtUserInfo.Text = "좌석 번호 : " + mem.Key + "\r\n학번 : " + mem.Value;
             }
             foreach (var time in return_info)
             {
-                txtUserInfo.Text = txtUserInfo.Text + ", 반납시간 : " + time.Key + ":" + time.Value;
+                txtUserInfo.Text = txtUserInfo.Text + "\r\n반납시간 : " + time.Key + ":" + time.Value;
             }
             MessageBox.Show("좌석 예약이 완료되었습니다.");
         }
@@ -129,13 +129,13 @@ namespace Science_Library
             return_info = sql.show_returnTime(user_id);
             foreach (var mem in seat_info)
             {
-                txtUserInfo.Text = "좌석 번호 : " + mem.Key + ", 학번 : " + mem.Value;
+                txtUserInfo.Text = "좌석 번호 : " + mem.Key + "\r\n학번 : " + mem.Value;
             }
             foreach (var time in return_info)
             {
                 user_hour = time.Key;
                 user_min = time.Value;
-                txtUserInfo.Text = txtUserInfo.Text + ", 반납시간 : " + time.Key + ":" + time.Value ;
+                txtUserInfo.Text = txtUserInfo.Text + "\r\n반납시간 : " + time.Key + ":" + time.Value ;
                 
             }
             sql.time_prolong(user_id,now_hour,now_min);

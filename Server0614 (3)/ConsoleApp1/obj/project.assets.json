@@ -86,11 +86,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jmhwa\\OneDrive\\문서\\카카오톡 받은 파일\\Server0614 (3)\\ConsoleApp1\\client_0605.csproj",
+      "projectUniqueName": "C:\\Users\\jmhwa\\LibraryManagement\\Server0614 (3)\\ConsoleApp1\\client_0605.csproj",
       "projectName": "client_0605",
-      "projectPath": "C:\\Users\\jmhwa\\OneDrive\\문서\\카카오톡 받은 파일\\Server0614 (3)\\ConsoleApp1\\client_0605.csproj",
+      "projectPath": "C:\\Users\\jmhwa\\LibraryManagement\\Server0614 (3)\\ConsoleApp1\\client_0605.csproj",
       "packagesPath": "C:\\Users\\jmhwa\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jmhwa\\OneDrive\\문서\\카카오톡 받은 파일\\Server0614 (3)\\ConsoleApp1\\obj\\",
+      "outputPath": "C:\\Users\\jmhwa\\LibraryManagement\\Server0614 (3)\\ConsoleApp1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\jmhwa\\AppData\\Roaming\\NuGet\\NuGet.Config",

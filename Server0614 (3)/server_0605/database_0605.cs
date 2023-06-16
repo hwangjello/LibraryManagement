@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Data;
 using System.Data.SQLite;
-using System.Reflection; //Assembly
+using System.Reflection; 
 using System.IO;
 
 public class DatabaseConnector
@@ -27,10 +27,8 @@ public class DatabaseConnector
 
                 using (var command = new SQLiteCommand(connection))
                 {
-                    // SQL 쿼리 문자열 생성
                     string query = "CREATE TABLE IF NOT EXISTS Users (Id INTEGER PRIMARY KEY AUTOINCREMENT, Name TEXT, StudentID TEXT, Password TEXT)";
 
-                    // SQL 쿼리 실행
                     command.CommandText = query;
                     await command.ExecuteNonQueryAsync();
                 }
@@ -54,16 +52,13 @@ public class DatabaseConnector
 
                 using (var command = new SQLiteCommand(connection))
                 {
-                    // SQL 쿼리 문자열 생성
                     string query = "INSERT INTO Users (Name, StudentID, Password) VALUES (@Name, @StudentID, @Password)";
 
-                    // SQL 쿼리에 매개변수 바인딩
                     command.CommandText = query;
                     command.Parameters.AddWithValue("@Name", name);
                     command.Parameters.AddWithValue("@StudentID", studentID);
                     command.Parameters.AddWithValue("@Password", password);
 
-                    // SQL 쿼리 실행
                     await command.ExecuteNonQueryAsync();
                 }
             }
@@ -85,22 +80,17 @@ public class DatabaseConnector
 
                 using (var command = new SQLiteCommand(connection))
                 {
-                    // SQL 쿼리 문자열 생성
                     string query = "SELECT * FROM Users";
 
-                    // SQL 쿼리에 매개변수 바인딩
                     command.CommandText = query;
 
-                    // 데이터를 담을 DataTable 생성
                     DataTable dataTable = new DataTable();
 
-                    // 데이터 가져오기
                     using (var adapter = new SQLiteDataAdapter(command))
                     {
                         adapter.Fill(dataTable);
                     }
 
-                    // 테이블 출력
                     Console.WriteLine("Users 테이블 내용:");
                     foreach (DataRow row in dataTable.Rows)
                     {
@@ -125,13 +115,10 @@ public class DatabaseConnector
 
                 using (var command = new SQLiteCommand(connection))
                 {
-                    // SQL 쿼리 문자열 생성
                     string query = "DELETE FROM Users";
 
-                    // SQL 쿼리에 매개변수 바인딩
                     command.CommandText = query;
 
-                    // SQL 쿼리 실행
                     await command.ExecuteNonQueryAsync();
 
                     Console.WriteLine("Users 테이블이 비워졌습니다.");
@@ -154,16 +141,13 @@ public class DatabaseConnector
 
                 using (var command = new SQLiteCommand(connection))
                 {
-                    // SQL 쿼리 문자열 생성
                     string query = "SELECT COUNT(*) FROM Users WHERE StudentID = @StudentID AND Name = @Name AND Password = @Password";
 
-                    // SQL 쿼리에 매개변수 바인딩
                     command.CommandText = query;
                     command.Parameters.AddWithValue("@StudentID", studentID);
                     command.Parameters.AddWithValue("@Name", name);
                     command.Parameters.AddWithValue("@Password", password);
 
-                    // SQL 쿼리 실행하여 결과 조회
                     int count = Convert.ToInt32(await command.ExecuteScalarAsync());
 
                     return count > 0;
@@ -186,15 +170,12 @@ public class DatabaseConnector
 
                 using (var command = new SQLiteCommand(connection))
                 {
-                    // SQL 쿼리 문자열 생성
                     string query = "SELECT COUNT(*) FROM Users WHERE StudentID = @StudentID AND Password = @Password";
 
-                    // SQL 쿼리에 매개변수 바인딩
                     command.CommandText = query;
                     command.Parameters.AddWithValue("@StudentID", studentID);
                     command.Parameters.AddWithValue("@Password", password);
 
-                    // SQL 쿼리 실행하여 결과 조회
                     int count = Convert.ToInt32(await command.ExecuteScalarAsync());
 
                     return count > 0;

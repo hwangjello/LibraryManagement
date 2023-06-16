@@ -82,3 +82,24 @@ C:\Users\jmhwa\OneDrive\문서\카카오톡 받은 파일\Server0614 (3)\server_
 C:\Users\jmhwa\OneDrive\문서\카카오톡 받은 파일\Server0614 (3)\server_0605\obj\Debug\net6.0\server_0605.pdb
 C:\Users\jmhwa\OneDrive\문서\카카오톡 받은 파일\Server0614 (3)\server_0605\obj\Debug\net6.0\server_0605.genruntimeconfig.cache
 C:\Users\jmhwa\OneDrive\문서\카카오톡 받은 파일\Server0614 (3)\server_0605\obj\Debug\net6.0\ref\server_0605.dll
+C:\Users\jmhwa\LibraryManagement\Server0614 (3)\server_0605\bin\Debug\net6.0\server_0605.exe
+C:\Users\jmhwa\LibraryManagement\Server0614 (3)\server_0605\bin\Debug\net6.0\server_0605.deps.json
+C:\Users\jmhwa\LibraryManagement\Server0614 (3)\server_0605\bin\Debug\net6.0\server_0605.runtimeconfig.json
+C:\Users\jmhwa\LibraryManagement\Server0614 (3)\server_0605\bin\Debug\net6.0\server_0605.dll
+C:\Users\jmhwa\LibraryManagement\Server0614 (3)\server_0605\bin\Debug\net6.0\server_0605.pdb
+C:\Users\jmhwa\LibraryManagement\Server0614 (3)\server_0605\bin\Debug\net6.0\System.Data.SQLite.dll
+C:\Users\jmhwa\LibraryManagement\Server0614 (3)\server_0605\bin\Debug\net6.0\runtimes\linux-x64\native\SQLite.Interop.dll
+C:\Users\jmhwa\LibraryManagement\Server0614 (3)\server_0605\bin\Debug\net6.0\runtimes\osx-x64\native\SQLite.Interop.dll
+C:\Users\jmhwa\LibraryManagement\Server0614 (3)\server_0605\bin\Debug\net6.0\runtimes\win-x64\native\SQLite.Interop.dll
+C:\Users\jmhwa\LibraryManagement\Server0614 (3)\server_0605\bin\Debug\net6.0\runtimes\win-x86\native\SQLite.Interop.dll
+C:\Users\jmhwa\LibraryManagement\Server0614 (3)\server_0605\obj\Debug\net6.0\server_0605.csproj.AssemblyReference.cache
+C:\Users\jmhwa\LibraryManagement\Server0614 (3)\server_0605\obj\Debug\net6.0\server_0605.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jmhwa\LibraryManagement\Server0614 (3)\server_0605\obj\Debug\net6.0\server_0605.AssemblyInfoInputs.cache
+C:\Users\jmhwa\LibraryManagement\Server0614 (3)\server_0605\obj\Debug\net6.0\server_0605.AssemblyInfo.cs
+C:\Users\jmhwa\LibraryManagement\Server0614 (3)\server_0605\obj\Debug\net6.0\server_0605.csproj.CoreCompileInputs.cache
+C:\Users\jmhwa\LibraryManagement\Server0614 (3)\server_0605\obj\Debug\net6.0\server_0605.csproj.CopyComplete
+C:\Users\jmhwa\LibraryManagement\Server0614 (3)\server_0605\obj\Debug\net6.0\server_0605.dll
+C:\Users\jmhwa\LibraryManagement\Server0614 (3)\server_0605\obj\Debug\net6.0\refint\server_0605.dll
+C:\Users\jmhwa\LibraryManagement\Server0614 (3)\server_0605\obj\Debug\net6.0\server_0605.pdb
+C:\Users\jmhwa\LibraryManagement\Server0614 (3)\server_0605\obj\Debug\net6.0\server_0605.genruntimeconfig.cache
+C:\Users\jmhwa\LibraryManagement\Server0614 (3)\server_0605\obj\Debug\net6.0\ref\server_0605.dll

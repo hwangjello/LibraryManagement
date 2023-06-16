@@ -20,7 +20,7 @@ namespace Server
             //await connector.CreateDatabase();
 
             await AsyncEchoServer();
-            string savePath = "C:\\Users\\jmhwa\\LibraryManagement\\ScienceLibrary\\DB\\info.db"; // DB 파일을 저장할 경로와 파일명
+            string savePath = "C:\\Users\\jmhwa\\LibraryManagement\\ScienceLibrary\\DB\\info.db"; 
 
             Console.WriteLine("서버가 종료되었습니다. 아무 키나 누르세요...");
             Console.ReadKey();
@@ -28,8 +28,8 @@ namespace Server
 
         async static Task AsyncEchoServer()
         {
-            string serverIP = "192.168.0.67";
-            int serverPort = 222;
+            string serverIP = "192.168.50.83";
+            int serverPort = 9012;
             TcpListener server = new TcpListener(IPAddress.Parse(serverIP), serverPort);
             server.Start();
             Console.WriteLine("서버가 시작되었습니다.");
@@ -47,7 +47,7 @@ namespace Server
             NetworkStream stream = client.GetStream();
             byte[] data = Encoding.UTF8.GetBytes(message);
             await stream.WriteAsync(data, 0, data.Length);
-            await stream.FlushAsync(); // 전송 완료를 기다립니다.
+            await stream.FlushAsync(); 
         }
 
         async static Task AsyncTcpProcess(object o)
@@ -56,7 +56,6 @@ namespace Server
             NetworkStream stream = tc.GetStream();
             var buff = new byte[1024];
 
-            // Receive all the data until the end
             StringBuilder sb = new StringBuilder();
             int bytesRead;
             do
@@ -69,29 +68,24 @@ namespace Server
 
             Console.WriteLine("Received data: " + receivedData);
 
-            string dbFilePath = "C:\\Users\\jmhwa\\LibraryManagement\\ScienceLibrary\\DB\\info.db"; // Path of the DB file to be sent
+            string dbFilePath = "C:\\Users\\jmhwa\\LibraryManagement\\ScienceLibrary\\DB\\info.db"; 
 
-            // Read the DB file as a byte array
             byte[] dbFileBytes = File.ReadAllBytes(dbFilePath);
 
-            // Send the DB file size to the client
             await SendToClientAsync(tc, dbFileBytes.Length.ToString());
-            await stream.FlushAsync(); // Wait for the data to be sent to the client
+            await stream.FlushAsync(); 
 
-            // Receive acknowledgment from the client
             byte[] ackBuffer = new byte[1024];
             int ackBytesRead = await stream.ReadAsync(ackBuffer, 0, ackBuffer.Length);
             string ackData = Encoding.UTF8.GetString(ackBuffer, 0, ackBytesRead);
 
             if (ackData == "ACK")
             {
-                // Send the DB file to the client
                 await SendToClientAsync(tc, Convert.ToBase64String(dbFileBytes));
-                await stream.FlushAsync(); // Wait for the data to be sent to the client
-
+                await stream.FlushAsync(); 
                 tc.Close();
 
-                string savePath = "C:\\Users\\jmhwa\\LibraryManagement\\ScienceLibrary\\DB\\info.db"; // Path and filename to save the DB file
+                string savePath = "C:\\Users\\jmhwa\\LibraryManagement\\ScienceLibrary\\DB\\info.db";
                 await ReceiveDBFile(tc, savePath);
             }
         }
